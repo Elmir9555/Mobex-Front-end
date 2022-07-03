@@ -433,6 +433,7 @@
   top: 38px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  display: none;
 }
 
 .secondpart-header .waiting-basket .dropdown-basket .products {
@@ -506,5 +507,208 @@
   width: 150px;
   height: 40px;
   border-radius: 4px;
+}
+
+.secondpart-header .markas {
+  background-color: #edf0f2;
+  margin-top: 41px;
+  height: 46px;
+  border-radius: 6px;
+}
+
+.secondpart-header .markas ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 46px;
+}
+
+.secondpart-header .markas ul li {
+  list-style: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 10px;
+  width: 130px;
+}
+
+.secondpart-header .markas ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.secondpart-header .markas ul li:hover a {
+  color: #3a7dcf;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.secondpart-header .markas ul li a {
+  text-decoration: none;
+  color: #3F434D;
+  font-size: 15px;
+  font-weight: bold;
+  min-width: 110px;
+  display: inline-block;
+}
+
+.first-section {
+  margin-top: 15px;
+}
+
+.first-section .marka-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 13px;
+  background-color: #edf0f2;
+  height: 36px;
+}
+
+.first-section .marka-model .marka {
+  font-size: 14px;
+  padding-top: 7px;
+  padding-left: 15px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.first-section .marka-model .marka:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.first-section .marka-model .marka i {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.first-section .marka-model .model {
+  font-size: 14px;
+  padding-top: 7px;
+  padding-left: 15px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.first-section .marka-model .model:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.first-section .marka-model .model i {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.first-section .marka-model .searchbox {
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.first-section .marka-model .searchbox i {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.first-section .marka-model .searchbox i:hover {
+  color: #3a7dcf;
+}
+
+.first-section .dropdown-checkbox-search {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  min-width: 250px;
+  height: 295px;
+  position: absolute;
+  display: none;
+}
+
+.first-section .dropdown-checkbox-search .searchmarka {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.first-section .dropdown-checkbox-search .searchmarka input {
+  width: 230px;
+  height: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.first-section .dropdown-checkbox-search .checkbox {
+  padding-left: 13px;
+  padding-top: 10px;
+  height: 200px;
+  overflow: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.first-section .dropdown-checkbox-search .checkbox .scroll-checkbox {
+  line-height: 27px;
+}
+
+.first-section .dropdown-checkbox-search .checkbox .scroll-checkbox span {
+  font-size: 14px;
+  color: #777e8f;
+}
+
+.first-section .dropdown-checkbox-search .close-btn {
+  background-color: #edf0f2;
+  height: 41px;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+.first-section .dropdown-checkbox-search .close-btn button {
+  background-color: #BDC3C7;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  width: 79px;
+  height: 31px;
+}
+
+.first-section .dropdown-checkbox-search .close-btn button:hover {
+  color: #edf0f2;
+}
+
+.first-section .dropdown-model-logo {
+  width: 252px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 210px;
+  position: absolute;
+  display: none;
+  left: 165px;
+  background-color: white;
+}
+
+.first-section .dropdown-model-logo .logos {
+  padding-left: 13px;
+}
+
+.first-section .dropdown-model-logo .logos span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.first-section .dropdown-model-logo .logos span:hover {
+  border: 2px solid #4b4b4b;
+}
+
+.first-section .dropdown-model-logo .close-btn-logo {
+  background-color: #edf0f2;
+  height: 48px;
+  padding-left: 10px;
+  padding-top: 8px;
+}
+
+.first-section .dropdown-model-logo .close-btn-logo button {
+  background-color: #BDC3C7;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  width: 79px;
+  height: 31px;
+}
+
+.first-section .dropdown-model-logo .close-btn-logo button:hover {
+  color: #edf0f2;
 }
 /*# sourceMappingURL=home.css.map */

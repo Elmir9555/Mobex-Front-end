@@ -7,7 +7,7 @@
    
 }
 
-
+//Header
 .firstpart-header{
     background-color:#1b3b61;
     height: 35px;
@@ -414,6 +414,8 @@
             top: 38px;
             border-radius: 5px;
             border: 1px solid rgba(0, 0, 0, 0.1);
+            display: none;
+           
 
             .products{
                min-height:86px;
@@ -491,6 +493,216 @@
 
         }
     }
+
+
+    .markas{
+        background-color:#edf0f2;
+        margin-top:41px;
+        height:46px;
+        border-radius:6px;
+        
+        ul{
+            display: flex;
+            height:46px;
+            
+            
+            li{
+                list-style: none;
+                border-right: 1px solid rgba(0, 0, 0, 0.1);
+                text-align: center;
+                padding-top:10px;
+                width: 130px;
+                &:hover{
+                   a{
+                       color:#3a7dcf ;
+                       transition: all 0.3s
+                   }
+                   background-color:rgba(0, 0, 0, 0.1)
+                }
+                a{
+                    text-decoration: none;
+                    color: #3F434D;
+                    font-size: 15px;
+                    font-weight: bold;
+                    min-width: 110px;
+                    display: inline-block;          
+                }
+            }
+        }
+    }
     
    
 }
+//Header
+
+//main
+.first-section{
+    margin-top:15px;
+    .marka-model{
+        display:flex;
+        gap: 13px;
+        background-color:#edf0f2;
+        height: 36px;
+       
+
+   
+        .marka{
+           font-size: 14px;   
+             padding-top: 7px;
+           padding-left: 15px;
+           width: 80px;
+           cursor: pointer;
+
+           &:hover{
+               background-color:rgba(0, 0, 0, 0.1);
+           }
+            i{
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+        .model{
+            font-size: 14px;
+            padding-top: 7px;
+            padding-left: 15px;
+            width: 80px;
+            cursor: pointer;
+            &:hover{
+                background-color:rgba(0, 0, 0, 0.1);
+            }
+            i{
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.5);
+
+               
+            }
+        }
+
+        .searchbox{
+            padding-top: 6px;
+            cursor: pointer;
+           
+          
+            
+            i{
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.5);
+             
+                &:hover{
+                    color: #3a7dcf;
+                }
+            }
+        }
+
+      
+    }
+
+
+    .dropdown-checkbox-search{
+         border: 1px solid rgba(0, 0, 0, 0.2);
+          min-width: 250px;
+          height:295px;
+          position: absolute;
+          display:none;
+     
+
+           .searchmarka{
+               padding-left:10px;
+               padding-top: 20px;
+               input{
+                width: 230px;
+                height:32px;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                border-radius: 4px;
+                padding-left: 10px;
+               }
+           }
+
+           .checkbox{
+               padding-left: 13px;
+               padding-top:10px;
+               height: 200px;
+               overflow:auto;
+               border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+               .scroll-checkbox{
+                   line-height:27px;
+                input{
+
+                }
+                span{
+                 font-size:14px;
+                 color: #777e8f;
+                }
+               }
+             
+           }
+
+           .close-btn{
+               background-color:#edf0f2;
+               height:41px;
+               padding-left: 10px;
+               padding-top: 4px;
+               button{
+                   background-color:#BDC3C7;
+                   color:#FFFFFF;
+                   border:none;
+                   font-size: 14px;
+                   width: 79px;
+                   height:31px;
+
+                   &:hover{
+                       color: #edf0f2;
+                   }
+               }
+           }
+     }
+
+    .dropdown-model-logo{
+        width: 252px;
+        border: 1px solid rgba(0, 0, 0, 0.2);      
+        height:210px;
+        position: absolute;
+        display:none;
+        left:165px;
+        background-color:white;
+   
+   
+
+        .logos{
+                 padding-left: 13px;
+            span{
+                display: inline-block;
+                cursor: pointer;
+                
+                &:hover{
+                    border: 2px solid rgb(75, 75, 75);
+                }
+                img{
+
+                }
+            }
+        }
+
+        .close-btn-logo{
+            background-color:#edf0f2;
+            height:48px;
+            padding-left: 10px;
+            padding-top: 8px;
+            button{
+                background-color:#BDC3C7;
+                color:#FFFFFF;
+                border:none;
+                font-size: 14px;
+                width: 79px;
+                height:31px;
+
+                &:hover{
+                    color: #edf0f2;
+                }
+            }
+        }
+     }
+}
+
+
+//main

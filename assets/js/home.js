@@ -1,3 +1,4 @@
+//header
 $(document).ready(function(){
     // language and currency dropdown
     $(".language").click(function(){      
@@ -39,3 +40,26 @@ $(document).ready(function(){
     })
      //add-basket
 });
+//header
+
+//body
+$(document).ready(function(){
+    //brand
+    $(".marka").click(function(){      
+        $(".dropdown-checkbox-search").toggle(); 
+    });
+    $("#close-btn").click(function(){   
+        $(".dropdown-checkbox-search").hide(); 
+    });
+    //brand
+
+    //model
+    $(".model").click(function(){      
+        $(".dropdown-model-logo").toggle(); 
+    });
+    $("#close-btn-logo").click(function(){   
+        $(".dropdown-model-logo").hide(); 
+    });
+    //model
+});
+//body
