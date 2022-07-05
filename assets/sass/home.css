@@ -492,7 +492,6 @@
 }
 
 .secondpart-header .waiting-basket .dropdown-basket .product-btn #show-basket {
-  color: white;
   background-color: #3a7dcf;
   font-size: 13px;
   width: 150px;
@@ -500,13 +499,22 @@
   border-radius: 4px;
 }
 
+.secondpart-header .waiting-basket .dropdown-basket .product-btn #show-basket a {
+  text-decoration: none;
+  color: white;
+}
+
 .secondpart-header .waiting-basket .dropdown-basket .product-btn #complete {
-  color: black;
   background-color: #ffd82d;
   font-size: 13px;
   width: 150px;
   height: 40px;
   border-radius: 4px;
+}
+
+.secondpart-header .waiting-basket .dropdown-basket .product-btn #complete a {
+  text-decoration: none;
+  color: black;
 }
 
 .secondpart-header .markas {

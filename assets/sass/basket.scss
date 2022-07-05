@@ -473,21 +473,27 @@
                     border: none;
                     
                 }
-                #show-basket{
-                    color: white;
+                #show-basket{          
                     background-color:#3a7dcf;
                     font-size: 13px;
                     width: 150px;
                     height: 40px;
                     border-radius:4px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
                 }
-                #complete{
-                    color: black;
+                #complete{            
                     background-color:#ffd82d;
                     font-size: 13px;
                     width: 150px;
                     height: 40px;
                     border-radius:4px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
                 }
             }
 
@@ -636,8 +642,7 @@
         .content{
             display: flex;
             justify-content: space-between;
-            
-           
+          
             .img-code-name{
                 display: flex;
                 gap: 50px;
@@ -646,7 +651,7 @@
                     height:120px; 
                  }
 
-                 .delete{
+                .delete{
                      padding-top: 20px;
                      i{
                          color: red;
@@ -688,37 +693,103 @@
                     .increase{
                         width:40px;
                         height:30px;
-                        color: rgb(202, 202, 202);
+                        color: rgb(228, 228, 228);
                         text-align: center;
                         font-size: 25px; 
-                        background-color:rgb(160, 160, 160);
+                        background-color:rgb(201, 201, 201);
+                        cursor: pointer;
                        
                     }
                     .decrease{
                         width:40px;
                         height:30px;
-                        color: rgb(202, 202, 202);
+                        color: rgb(228, 228, 228);
                         text-align: center;
                         padding-bottom: 10px;
                         font-size: 22px; 
-                        background-color:rgb(160, 160, 160);
+                        background-color:rgb(201, 201, 201);
+                        cursor: pointer;
                     }
 
                     .number{
                         width:70px;
                         height:30px;
-                        // background-color:white;
+                        text-align: center;
+                        background-color:rgb(245, 245, 245);
+                        padding-top:2px;
+                        color: rgb(212, 212, 212);
                         
                        input{
                            border: none;
                            background-color:#f6f7f8;
                            outline:none;
+                          
                        }
                     }
                 }
 
                 .third{
 
+                }
+            }
+        }
+
+        .end-total-price{
+            background-color:#edf0f2;
+            height:50px;
+            .title-totalprice{
+                display: flex;
+                padding-top:12px;
+                justify-content:flex-end;
+                gap: 90px;
+                padding-right: 40px;
+                .title-price{
+                    font-size: 20px;
+                    color: #777e8f;
+                    font-weight: 600;
+                }
+
+                .common-price{
+                    font-size: 20px;
+                    color:#333333;
+                }
+            }
+        }
+    }
+
+    .end-basket-button{
+        display: flex;
+        justify-content:space-between;
+        background-color: #f6f7f8;
+        height: 76px;
+        padding-top: 20px;
+        margin-top:20px;
+        border-radius: 5px;
+        
+        .all-clear-continue{
+            display: flex;
+            gap: 20px;
+            padding-left: 15px;
+            button{
+                border:none;
+                border-radius: 2px;
+                a{
+                    text-decoration: none;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .recalculate-complete{
+            display: flex;
+            gap: 20px;
+            padding-right: 20px;
+            button{
+                border:none;
+                border-radius: 2px;
+                a{
+                    text-decoration: none;
+                    font-size: 14px;
                 }
             }
         }
@@ -732,7 +803,7 @@
     display:flex;
     padding-top:22px;
     padding-right: 100px;
-    margin-top:40px;
+    margin-top:80px;
     height:88px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(157,175,169,1) 0%, rgba(85,204,222,1) 0%, rgba(131,148,152,1) 100%, rgba(91,94,108,1) 100%);

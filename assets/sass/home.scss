@@ -471,23 +471,31 @@
                 
                 button{
                     border: none;
-                    
+                  
                 }
                 #show-basket{
-                    color: white;
+                    
                     background-color:#3a7dcf;
                     font-size: 13px;
                     width: 150px;
                     height: 40px;
                     border-radius:4px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
                 }
                 #complete{
-                    color: black;
+                   
                     background-color:#ffd82d;
                     font-size: 13px;
                     width: 150px;
                     height: 40px;
                     border-radius:4px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
                 }
             }
 

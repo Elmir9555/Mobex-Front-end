@@ -492,7 +492,6 @@
 }
 
 .secondpart-header .waiting-basket .dropdown-basket .product-btn #show-basket {
-  color: white;
   background-color: #3a7dcf;
   font-size: 13px;
   width: 150px;
@@ -500,13 +499,22 @@
   border-radius: 4px;
 }
 
+.secondpart-header .waiting-basket .dropdown-basket .product-btn #show-basket a {
+  text-decoration: none;
+  color: white;
+}
+
 .secondpart-header .waiting-basket .dropdown-basket .product-btn #complete {
-  color: black;
   background-color: #ffd82d;
   font-size: 13px;
   width: 150px;
   height: 40px;
   border-radius: 4px;
+}
+
+.secondpart-header .waiting-basket .dropdown-basket .product-btn #complete a {
+  text-decoration: none;
+  color: black;
 }
 
 .secondpart-header .markas {
@@ -724,25 +732,31 @@
 .third-section .basket-products .content .price-count-totalprice .second .increase {
   width: 40px;
   height: 30px;
-  color: #cacaca;
+  color: #e4e4e4;
   text-align: center;
   font-size: 25px;
-  background-color: #a0a0a0;
+  background-color: #c9c9c9;
+  cursor: pointer;
 }
 
 .third-section .basket-products .content .price-count-totalprice .second .decrease {
   width: 40px;
   height: 30px;
-  color: #cacaca;
+  color: #e4e4e4;
   text-align: center;
   padding-bottom: 10px;
   font-size: 22px;
-  background-color: #a0a0a0;
+  background-color: #c9c9c9;
+  cursor: pointer;
 }
 
 .third-section .basket-products .content .price-count-totalprice .second .number {
   width: 70px;
   height: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding-top: 2px;
+  color: #d4d4d4;
 }
 
 .third-section .basket-products .content .price-count-totalprice .second .number input {
@@ -751,13 +765,91 @@
   outline: none;
 }
 
+.third-section .basket-products .end-total-price {
+  background-color: #edf0f2;
+  height: 50px;
+}
+
+.third-section .basket-products .end-total-price .title-totalprice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 12px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 90px;
+  padding-right: 40px;
+}
+
+.third-section .basket-products .end-total-price .title-totalprice .title-price {
+  font-size: 20px;
+  color: #777e8f;
+  font-weight: 600;
+}
+
+.third-section .basket-products .end-total-price .title-totalprice .common-price {
+  font-size: 20px;
+  color: #333333;
+}
+
+.third-section .end-basket-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f6f7f8;
+  height: 76px;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.third-section .end-basket-button .all-clear-continue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-left: 15px;
+}
+
+.third-section .end-basket-button .all-clear-continue button {
+  border: none;
+  border-radius: 2px;
+}
+
+.third-section .end-basket-button .all-clear-continue button a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.third-section .end-basket-button .recalculate-complete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.third-section .end-basket-button .recalculate-complete button {
+  border: none;
+  border-radius: 2px;
+}
+
+.third-section .end-basket-button .recalculate-complete button a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
 .social-networks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 22px;
   padding-right: 100px;
-  margin-top: 40px;
+  margin-top: 80px;
   height: 88px;
   background: #020024;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #9dafa9), color-stop(0%, #55ccde), color-stop(100%, #839498), to(#5b5e6c));
