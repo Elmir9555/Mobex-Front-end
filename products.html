@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap link -->
+
+    <!-- Google-Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- Google-Font -->
+
+    <link rel="stylesheet" href="./assets/sass/products.css">
+    <title>Product Page</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="firstpart-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="currency-language">
+                            <div class="language">
+                                <img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABbklEQVRoge3XvUtCURjH8e9VIQKhIZesFiFaSlpaIreouSlpihqCoq05aosaWloacu8fEBoiSAgaQo1qsTdIwl5MCsMKxYbLVVoK9alD8Xymw+HAeX73vHAuKKWUUn+Y5TTcW/myyUJqVRrzWgAu04U0SgOYpgFM0wCmaQDTPE6juO41WUfNnCeE58tR9fD5YW4NgiE4S8LlCUQjcHUqPhVIB2htg0jCLnyyD3J3dn9HF/jaIXcLpaLolLIBZlbB5YbFMDxnq/3pFIRGIdAD8V24TtlhBMgG6B+G5N7n4gGamqF3AMLzUMjD7KBYAPlbyLK+HyNIdgUOd+xVaPHB00O1/60Ax/uwuWBvoWxGbMrK5yqHaPyHxh+AjQM4P4Kl8eo26eyG1xd4zIgdYivGD/zQ3FzARNC+fSJxWInC9DK8F+A+LX4DgfQK/CJnBSpnYGhqxFw19YhtA//gLaQBTNMApmkA0zSAUkoppRrwAQCSWtuSXmYYAAAAAElFTkSuQmCC">
+                                <span>Azərbaycan</span>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="currency">
+                                <span>(₼)</span>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                        <div class="lang-cur">
+                            <div class="dropdown-language">
+                                <div class="english">
+                                    <img src="https://img.icons8.com/color/48/000000/usa.png" />
+                                    <span>English</span>
+                                </div>
+                                <div class="azerbaijan">
+                                    <img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABbklEQVRoge3XvUtCURjH8e9VIQKhIZesFiFaSlpaIreouSlpihqCoq05aosaWloacu8fEBoiSAgaQo1qsTdIwl5MCsMKxYbLVVoK9alD8Xymw+HAeX73vHAuKKWUUn+Y5TTcW/myyUJqVRrzWgAu04U0SgOYpgFM0wCmaQDTPE6juO41WUfNnCeE58tR9fD5YW4NgiE4S8LlCUQjcHUqPhVIB2htg0jCLnyyD3J3dn9HF/jaIXcLpaLolLIBZlbB5YbFMDxnq/3pFIRGIdAD8V24TtlhBMgG6B+G5N7n4gGamqF3AMLzUMjD7KBYAPlbyLK+HyNIdgUOd+xVaPHB00O1/60Ax/uwuWBvoWxGbMrK5yqHaPyHxh+AjQM4P4Kl8eo26eyG1xd4zIgdYivGD/zQ3FzARNC+fSJxWInC9DK8F+A+LX4DgfQK/CJnBSpnYGhqxFw19YhtA//gLaQBTNMApmkA0zSAUkoppRrwAQCSWtuSXmYYAAAAAElFTkSuQmCC">
+                                    <span>Azərbaycan</span>
+                                </div>
+                            </div>
+
+
+                            <div class="dropdown-currency">
+                                <div class="manat">
+                                    (₼)
+                                </div>
+                                <div class="usd">
+                                    ($)
+                                </div>
+                                <div class="euro">
+                                    (€)
+                                </div>
+                                <div class="rubl">
+                                    (₽)
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-6">
+                        <div class="navbar-account-notific">
+                            <div class="navbar">
+                                <ul>
+                                    <li>
+                                        <a href="#">Hədiyyələr</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kömək</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Əlaqə</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Təklif / Şikayət</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sifarişlər</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="account">
+                                <i class="fas fa-user"></i>
+                                <span>Hesabım</span>
+                                <i class="fas fa-caret-down"></i>
+
+                            </div>
+                            <div class="dropdown-account">
+                                <div class="first">
+                                    Sifarişlər
+                                </div>
+                                <div class="second">
+                                    Geri qaytarılma tələbləri
+                                </div>
+                                <div class="third">
+                                    Gözləmə səbəti
+                                </div>
+                                <div class="fourth">
+                                    Xüsusi sifarişlər
+                                </div>
+                                <div class="sign-btn">
+                                    <div class="btns">
+                                        <div class="signin">
+                                            <button>Daxil ol</button>
+                                        </div>
+                                        <div class="signup">
+                                            <button>Qeydiyyatdan keç</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="notific">
+                                <i class="fas fa-bell"></i>
+                            </div>
+
+                            <div class="not-count">
+                                0
+                            </div>
+                        </div>
+                        <div class="dropdown-noti">
+                            <div class="title">
+                                <div class="title-name">
+                                    Bildirimlər
+                                </div>
+                                <div class="notification-count">
+                                    0
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="info">
+                                    <div class="new-products">
+                                        YENI MƏHSULLAR
+                                    </div>
+                                    <div class="customer-info">
+                                        Hörmətli müştərilər, stoka yeni məhsullar gəlmişdir.
+                                    </div>
+                                    <div class="two-btn">
+                                        <a href="#">ƏTRAFLI OXU</a>
+                                        <a id="b" href="#">BURAX</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="secondpart-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="logo">
+                            <a href="./home.html">
+                                <img src="./assets/img/logo_mobex.png" alt="mobex">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="search">
+                            <input type="text" placeholder="Məhsul axtar">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="waiting-basket">
+                            <div class="waiting">
+                                <i class="fas fa-clock"></i>
+                                <span>Gözləmə səbəti</span>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="dropdown-waiting">
+                                Gözləmə səbəti
+                            </div>
+                            <div class="basket-card">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>Sifariş səbəti</span>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="dropdown-basket">
+                                <div class="products">
+                                    <div class="picture-price-name">
+                                        <div class="picture">
+                                            <img src="./assets/img/B37316N27K.jpeg" alt="product">
+                                        </div>
+                                        <div class="price-name">
+                                            <div class="name">
+                                                <a href="#"> Raspredval datciki B37316N27K</a>
+                                            </div>
+                                            <div class="price">
+                                                6 x 23.40 ₼
+                                            </div>
+                                        </div>
+                                        <div class="remove-icon">
+                                            <i class="fas fa-times"></i>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                                <div class="product-btn">
+                                    <button id="show-basket"> <a href="./basket.html">Səbəti göstər</a> </button>
+                                    <button id="complete"><a href="#">Sifarişi tamamla</a></button>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="markas">
+                            <ul>
+                                <li>
+                                    <a href="#" style="padding-right: 20px;">Toyota/Lexus</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nissan / Infinity</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mitsubishi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hyundai / Kia</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mercedes</a>
+                                </li>
+                                <li>
+                                    <a href="#">BMW</a>
+                                </li>
+                                <li>
+                                    <a href="#">Volkswagen</a>
+                                </li>
+                                <li>
+                                    <a href="#">Audi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Land Rover</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ford</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="first-section">
+            <div class="first-section">
+                <div class="container">
+                    <div class="title-pr">
+                        Məhsul filterləri
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="second-section">
+            <div class="second-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="marka-model">
+
+                                <div class="marka">
+                                    Brend <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="model">
+                                    Marka <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="location-dest">
+                                    Yerləşmə yeri <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="dropdown-checkbox-search">
+                                <div class="searchmarka">
+                                    <input type="text" placeholder="Axtar...">
+                                </div>
+                                <div class="checkbox">
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>BMTSR</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>BMTSR</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Continental</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Continental (A klass dublikat)</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Ford</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>German Concept</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Hyundai / Kia</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Japan Concept</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Korean Concept</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Land Rover</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Land Rower</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Limastar</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Mercedes Benz</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Mercedes Benz (Orjinal)</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Mitsubishi</span>
+                                    </div>
+
+                                </div>
+                                <div class="close-btn">
+                                    <button id="close-btn">Bağla</button>
+                                </div>
+                            </div>
+                            <div class="dropdown-checkbox">
+                                <div class="checkbox">
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Üst</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Sağ</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Sol</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Alt</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Ön</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Arxa</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>İç</span>
+                                    </div>
+                                    <div class="scroll-checkbox">
+                                        <input type="checkbox">
+                                        <span>Çöl</span>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="close-btn">
+                                    <button id="close-btnn">Bağla</button>
+                                </div>
+                            </div>
+
+                            <div class="dropdown-model-logo">
+
+                                <div class="logos">
+
+                                    <span>
+                                        <img src="./assets/img/Kia-logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="kia">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/honda.jpeg" style="width: 100%; height:100%;"
+                                            alt="honda">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/193-1934140_infiniti-logo-png-infiniti.jpeg"
+                                            style="width: 100%; height:100%;" alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Chevrolet-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="chevrolet">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Ford-logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="ford">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/56f53504d570af72648657e8a92f76e2.jpeg"
+                                            style="width: 100%; height:100%;" alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Lexus-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/193-1934140_infiniti-logo-png-infiniti.jpeg"
+                                            style="width: 100%; height:100%;" alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Chevrolet-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="chevrolet">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Ford-logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="ford">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/56f53504d570af72648657e8a92f76e2.jpeg"
+                                            style="width: 100%; height:100%;" alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Lexus-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/193-1934140_infiniti-logo-png-infiniti.jpeg"
+                                            style="width: 100%; height:100%;" alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Chevrolet-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="chevrolet">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Ford-logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="ford">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/56f53504d570af72648657e8a92f76e2.jpeg"
+                                            style="width: 100%; height:100%;" alt="infinity">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Lexus-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="infinity">
+                                    </span>
+
+                                </div>
+                                <div class="close-btn-logo">
+                                    <button id="close-btn-logo">Bağla</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="search-total">
+                            <div class="left">
+                                Axtarış nəticələri
+                            </div>
+                            <div class="right">
+                                Məhsul sayı: 720
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="third-section">
+            <div class="third-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="products-titles">
+                            <div class="productname">
+                                Məhsul adı
+                            </div>
+                            <div class="brend-mark">
+                                <div class="title-marka">
+                                    Marka
+                                </div>
+                                <div class="brend">
+                                    Brend
+                                </div>
+                            </div>
+                            <div class="empty">
+
+                            </div>
+
+                        </div>
+
+                        <div class="content-img-brend">
+                            <div class="img-name">
+                                <div class="picture">
+                                    <a href="#"> <img src="./assets/img/zafcast.jpeg" style="width: 100%; height:100%;"
+                                            alt=""></a>
+                                </div>
+                                <div class="productname-cod">
+                                    <div class="productname">
+                                        <a href="#"> Yag filteri 90915YZZD2</a>
+                                    </div>
+                                    <div class="cod">
+                                        Kod: 90915YZZD2
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content-marka-brend">
+                                <div class="content-marka">
+                                    <span>
+                                        <img src="./assets/img/Lexus-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Toyota.jpeg" style="width: 100%; height:100%;" alt="">
+                                    </span>
+                                </div>
+                                <div class="content-brend">
+                                    A Klass (Dublikat)
+                                    Toyota / Lexus
+                                </div>
+
+                            </div>
+                            <div class="buttons">
+                                <div class="price-count-total">
+                                
+                                    <div class="price-count">
+                                        <div class="decrease">
+                                            -
+                                        </div>   
+                                        <div class="number">
+                                            1
+                                        </div>
+                                        <div class="increase">
+                                            +
+                                        </div>                              
+                                    </div>
+                                    <div class="sumtotal">
+                                        3.20 ₼
+                                    </div>
+                                </div>
+                                <div class="btns-basket-waiting">
+                                    <button id="btnbasket">
+                                        <i class="fas fa-clock"></i> <a href="#">Gözləmə səbəti</a>
+                                    </button>
+                                    <button id="btnwait">
+                                        <i class="fas fa-shopping-basket"></i> <a href="#">Sifariş səbəti</a>
+                                    </button>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="content-img-brend">
+                            <div class="img-name">
+                                <div class="picture">
+                                    <a href="#"> <img src="./assets/img/zafcast.jpeg" style="width: 100%; height:100%;"
+                                            alt=""></a>
+                                </div>
+                                <div class="productname-cod">
+                                    <div class="productname">
+                                        <a href="#"> Yag filteri 90915YZZD2</a>
+                                    </div>
+                                    <div class="cod">
+                                        Kod: 90915YZZD2
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content-marka-brend">
+                                <div class="content-marka">
+                                    <span>
+                                        <img src="./assets/img/Lexus-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Toyota.jpeg" style="width: 100%; height:100%;" alt="">
+                                    </span>
+                                </div>
+                                <div class="content-brend">
+                                    A Klass (Dublikat)
+                                    Toyota / Lexus
+                                </div>
+
+                            </div>
+                            <div class="buttons">
+                                <div class="price-count-total">
+                                
+                                    <div class="price-count">
+                                        <div class="decrease">
+                                            -
+                                        </div>   
+                                        <div class="number">
+                                            1
+                                        </div>
+                                        <div class="increase">
+                                            +
+                                        </div>                              
+                                    </div>
+                                    <div class="sumtotal">
+                                        3.20 ₼
+                                    </div>
+                                </div>
+                                <div class="btns-basket-waiting">
+                                    <button id="btnbasket">
+                                        <i class="fas fa-clock"></i> <a href="#">Gözləmə səbəti</a>
+                                    </button>
+                                    <button id="btnwait">
+                                        <i class="fas fa-shopping-basket"></i> <a href="#">Sifariş səbəti</a>
+                                    </button>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="content-img-brend">
+                            <div class="img-name">
+                                <div class="picture">
+                                    <a href="#"> <img src="./assets/img/zafcast.jpeg" style="width: 100%; height:100%;"
+                                            alt=""></a>
+                                </div>
+                                <div class="productname-cod">
+                                    <div class="productname">
+                                        <a href="#"> Yag filteri 90915YZZD2</a>
+                                    </div>
+                                    <div class="cod">
+                                        Kod: 90915YZZD2
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content-marka-brend">
+                                <div class="content-marka">
+                                    <span>
+                                        <img src="./assets/img/Lexus-Logo.jpeg" style="width: 100%; height:100%;"
+                                            alt="">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/Toyota.jpeg" style="width: 100%; height:100%;" alt="">
+                                    </span>
+                                </div>
+                                <div class="content-brend">
+                                    A Klass (Dublikat)
+                                    Toyota / Lexus
+                                </div>
+
+                            </div>
+                            <div class="buttons">
+                                <div class="price-count-total">
+                                
+                                    <div class="price-count">
+                                        <div class="decrease">
+                                            -
+                                        </div>   
+                                        <div class="number">
+                                            1
+                                        </div>
+                                        <div class="increase">
+                                            +
+                                        </div>                              
+                                    </div>
+                                    <div class="sumtotal">
+                                        3.20 ₼
+                                    </div>
+                                </div>
+                                <div class="btns-basket-waiting">
+                                    <button id="btnbasket">
+                                        <i class="fas fa-clock"></i> <a href="#">Gözləmə səbəti</a>
+                                    </button>
+                                    <button id="btnwait">
+                                        <i class="fas fa-shopping-basket"></i> <a href="#">Sifariş səbəti</a>
+                                    </button>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <!-- Fontawesome link -->
+    <script src="https://kit.fontawesome.com/ad811518ca.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome link -->
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Jquery -->
+    <script src="./assets/js/products.js"></script>
+</body>
+
+</html>

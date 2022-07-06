@@ -42,8 +42,39 @@ $(document).ready(function(){
 });
 //header
 
+
 //body
-let plus=document.querySelector(".increase")
+$(document).ready(function(){
+    //brand
+    $(".marka").click(function(){      
+        $(".dropdown-checkbox-search").toggle(); 
+    });
+    $("#close-btn").click(function(){   
+        $(".dropdown-checkbox-search").hide(); 
+    });
+    //brand
+
+    //model
+    $(".model").click(function(){      
+        $(".dropdown-model-logo").toggle(); 
+    });
+    $("#close-btn-logo").click(function(){   
+        $(".dropdown-model-logo").hide(); 
+    });
+    //model
+
+    //location
+    $(".location-dest").click(function(){      
+        $(".dropdown-checkbox").toggle(); 
+    });
+    $("#close-btnn").click(function(){   
+        $(".dropdown-checkbox").hide(); 
+    });
+    //location
+
+
+
+    let plus=document.querySelector(".increase")
 let minus=document.querySelector(".decrease")
 let number=document.querySelector(".number")
 console.log(number);
@@ -62,4 +93,6 @@ minus.addEventListener("click",function(){
     }    
 })
 
+
+});
 //body
