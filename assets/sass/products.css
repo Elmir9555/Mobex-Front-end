@@ -800,10 +800,14 @@
 }
 
 .third-section .products-titles .brend-mark {
+  gap: 150px;
+  padding-right: 190px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .third-section .products-titles div {
@@ -978,7 +982,7 @@
   display: flex;
   padding-top: 22px;
   padding-right: 100px;
-  margin-top: 40px;
+  margin-top: 80px;
   height: 88px;
   background: #020024;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #9dafa9), color-stop(0%, #55ccde), color-stop(100%, #839498), to(#5b5e6c));

@@ -471,10 +471,9 @@
                 
                 button{
                     border: none;
-                  
-                }
-                #show-basket{
                     
+                }
+                #show-basket{          
                     background-color:#3a7dcf;
                     font-size: 13px;
                     width: 150px;
@@ -485,8 +484,7 @@
                         color: white;
                     }
                 }
-                #complete{
-                   
+                #complete{            
                     background-color:#ffd82d;
                     font-size: 13px;
                     width: 150px;
@@ -544,406 +542,149 @@
 //Header
 
 
-//main
-.first-section {
-    margin-top:20px;    
-    .title-pr{
-        font-size:20px;
-        color: #333333;
+
+//main 
+.first-section{
+    padding-top:20px;
+    padding-left: 10px;
+    a{
+        text-decoration: none;
+        color: #3a7dcf;
+        font-size:14px;
+    }
+    span{
+        color: #777e8f;
+        font-size:14px;
     }
 }
 
 .second-section{
-    margin-top:15px;
-    .marka-model{
-        display:flex;
-        gap: 13px;
-        background-color:#edf0f2;
-        height: 36px;
-       
-
-   
-        .marka,.location-dest{
-           font-size: 14px;   
-             padding-top: 7px;
-           padding-left: 15px;
-           width: 120px;
-           cursor: pointer;
-
-           &:hover{
-               background-color:rgba(0, 0, 0, 0.1);
-           }
-            i{
-                font-size: 12px;
-                color: rgba(0, 0, 0, 0.5);
-            }
-        }
-        .model{
-            font-size: 14px;
-            padding-top: 7px;
-            padding-left: 15px;
-            width: 80px;
-            cursor: pointer;
-            &:hover{
-                background-color:rgba(0, 0, 0, 0.1);
-            }
-            i{
-                font-size: 12px;
-                color: rgba(0, 0, 0, 0.5);
-
-               
-            }
-        }
-
-    
-
-      
-    }
-
-
-    .dropdown-checkbox-search{
-         border: 1px solid rgba(0, 0, 0, 0.2);
-          min-width: 250px;
-          height:295px;
-          position: absolute;
-          display:none;
-          background-color: white;
-          z-index: 1;
-     
-
-           .searchmarka{
-               padding-left:10px;
-               padding-top: 20px;
-               input{
-                width: 230px;
-                height:32px;
-                border: 1px solid rgba(0, 0, 0, 0.2);
-                border-radius: 4px;
-                padding-left: 10px;
-               }
-           }
-
-           .checkbox{
-               padding-left: 13px;
-               padding-top:10px;
-               height: 200px;
-               overflow:auto;
-               border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-               .scroll-checkbox{
-                   line-height:27px;
-                input{
-
-                }
-                span{
-                 font-size:14px;
-                 color: #777e8f;
-                }
-               }
-             
-           }
-
-           .close-btn{
-               background-color:#edf0f2;
-               height:41px;
-               padding-left: 10px;
-               padding-top: 4px;
-               button{
-                   background-color:#BDC3C7;
-                   color:#FFFFFF;
-                   border:none;
-                   font-size: 14px;
-                   width: 79px;
-                   height:31px;
-
-                   &:hover{
-                       color: #edf0f2;
-                   }
-               }
-           }
-     }
-
-     .dropdown-checkbox{
-        border: 1px solid rgba(0, 0, 0, 0.2);
-         min-width: 250px;
-         height:244px;
-         position: absolute;
-         display:none;
-         background-color: white;
-         z-index: 1;
-         left: 298px;
-    
-
-          .checkbox{
-              padding-left: 13px;
-              padding-top:10px;
-              height: 200px;
-              overflow:auto;
-              border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-              .scroll-checkbox{
-                  line-height:27px;
-               input{
-
-               }
-               span{
-                font-size:14px;
+    // margin-top:40px;
+    .blogs{
+        padding-top: 30px;
+        .carname{
+            a{
+                text-decoration: none;
+                font-size:27px;
                 color: #777e8f;
-               }
-              }
-            
-          }
-
-          .close-btn{
-              background-color:#edf0f2;
-              height:41px;
-              padding-left: 10px;
-              padding-top: 4px;
-              button{
-                  background-color:#BDC3C7;
-                  color:#FFFFFF;
-                  border:none;
-                  font-size: 14px;
-                  width: 79px;
-                  height:31px;
-
-                  &:hover{
-                      color: #edf0f2;
-                  }
-              }
-          }
-    }
-
-    .dropdown-model-logo{
-        width: 252px;
-        border: 1px solid rgba(0, 0, 0, 0.2);      
-        height:210px;
-        position: absolute;
-        display:none;
-        left:205px;
-        background-color:white;
-   
-   
-
-        .logos{
-                 padding-left: 13px;
-            span{
-                display: inline-block;
-                cursor: pointer;
-                
-                &:hover{
-                    border: 2px solid rgb(75, 75, 75);
-                }
-                img{
-
-                }
+                font-weight:bold;
             }
         }
-
-        .close-btn-logo{
-            background-color:#edf0f2;
-            height:48px;
-            padding-left: 10px;
-            padding-top: 8px;
-            button{
-                background-color:#BDC3C7;
-                color:#FFFFFF;
-                border:none;
-                font-size: 14px;
-                width: 79px;
-                height:31px;
-
-                &:hover{
-                    color: #edf0f2;
-                }
+    
+        .date-by{
+            margin-top:5px;
+            .date{
+             display: inline-block;
+             color: #ADADAD;
+             font-size: 12px;
+             border-right: 1px solid rgba(0, 0, 0, 0.2);
+             width:75px;
+    
+            }
+            .by{
+             display: inline-block;
+             color: #ADADAD;
+             font-size: 12px;
+             width:175px;
+             padding-left:5px;
             }
         }
-     }
-
-
-     .search-total{
-         margin-top: 30px;
-         display:flex;
-         justify-content:space-between;
-         .left{
-            font-size: 20px;
-         }
-         .right{
-            font-size: 14px;
-            padding-top: 4px;
-         }
-     }
-}
-
-.third-section{
-    margin-top: 40px;
-    .products-titles{
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        height:40px;
-        .productname{
-          
-        }
-        .brend-mark{
-            
-           gap: 150px;
-           padding-right: 190px;
-           display:flex;
-        justify-content: space-between;
-         
-        }
-        display:flex;
-        justify-content: space-between;
-        div{
-            font-size: 14px;
-            color: #777e8f;
+    
+        .car-title{
+            font-size: 24px;
+            color: #6E6E6E;
             font-family: 'cairo', sans-serif;
             font-weight: bold;
+            margin-top: 20px;
         }
-    }
-
-    .content-img-brend{
-        display: flex;
-        justify-content:space-between;
-        padding-top: 25px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        height:110px;
-        .img-name{
-            display: flex;
-            gap: 30px;
-            .picture{
-                width: 60px;
-                height: 60px;
-            }
     
-            .productname-cod{
-                .productname{
-                    a{
-                        font-size:14px;
-                        color: #3a7dcf;
-                        text-decoration: none;
+        .car-content-first{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #6E6E6E;
+            margin-top:20px;
+        }
     
-                        &:hover {
-                            color: rgba(0, 0, 0, 0.4)
-                        }
-                    }
-                }
+        .car-content-second{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #6E6E6E;
+            margin-top:20px;
+        }
     
-                .cod{
+        .carimage{
+            margin-top: 50px;
+        }
+    
+        .main-news{
+            margin-top: 30px;
+            ul{
+                padding: 0;
+                margin: 0;
+                padding-left: 10px;
+    
+                li{
                     font-size:14px;
-                }
-            }
-        }
-
-        .content-marka-brend{
-            display: flex;
-            gap: 120px;
-         
-            .content-marka{
-                display: flex;
-                gap: 10px;
-                span{
-                    display: inline-block;
-                    width:26px;
-                    height:26px;
-                }
-            }
-
-            .content-brend{
-                font-size: 13px;
-                font-family: 'cairo', sans-serif;
-                font-weight: bold;
-                color:#777e8f;
-                width:105px;
-            }
-        }
-
-        .buttons{
-            .price-count-total{
-                display: flex;
-                gap: 40px;
-                justify-content: flex-end;
-                .sumtotal{
-
-                }
-            }
-
-            .btns-basket-waiting{
-                display: flex;
-                gap: 3px;
-                padding-top: 13px;
-
-                #btnbasket{
-                    background-color: #8A8D9C;
-                    width: 165px;
-                    height:35px;
-                    &:hover{
-                        opacity: 0.8;
-                    }
-                }
-
-                #btnwait{
-                    background-color: #01C0CB;
-                    width: 160px;
-                    height:35px;
-                    &:hover{
-                        opacity: 0.8;
-                    }
-                }
-                button{
-                    border: none;
-                    i{
-                        color: white;
-                    }
-                    a{
-                        color: white;
-                        text-decoration: none;
-                    }
-                }
-            }
-            .price-count{
-                display:flex;
-
-                .increase{
-                    width:40px;
-                    height:30px;
-                    color: rgb(228, 228, 228);
-                    text-align: center;
-                    font-size: 25px; 
-                    background-color:rgb(201, 201, 201);
-                    cursor: pointer;
-                   
-                }
-                .decrease{
-                    width:40px;
-                    height:30px;
-                    color: rgb(228, 228, 228);
-                    text-align: center;
-                    padding-bottom: 10px;
-                    font-size: 22px; 
-                    background-color:rgb(201, 201, 201);
-                    cursor: pointer;
-                }
-
-                .number{
-                    width:70px;
-                    height:30px;
-                    text-align: center;
-                    background-color:rgb(245, 245, 245);
-                    padding-top:2px;
-                    color: rgb(212, 212, 212);
-                    
-                   input{
-                       border: none;
-                       background-color:#f6f7f8;
-                       outline:none;
-                      
-                   }
+                    color: #777e8f;
+                    font-family:"Montserrat","Arial","Helvetica","sans-serif";
                 }
             }
         }
         
+        .read-continue-btn{
+            margin-top:30px;
+            height:80px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            button{
+                background-color:#3a7dcf;
+                border: none;
+                color: white;
+                width: 128px;
+                height:35px;
+                border-radius:3px;
+                font-size:14px;
+            }
+        }
     }
- 
+
+    .end-news{
+        margin-top:40px;
+        .title{
+            font-size:14px;
+            color: #777e8f;
+        }
+
+        .marka-name{
+            ul{
+                margin: 0;
+                padding: 0;
+                margin-top: 2px;
+
+                li{
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                    height: 40px;
+                    padding-top:9px;
+                    a{
+                        color: #3a7dcf;
+                        font-size: 14px;
+                       font-weight: bold;
+                        text-decoration: none;
+                    }
+                    list-style: none;
+                  
+                }
+            }
+        }
+    }
+
 }
+
+
+
+
 //main
+
+
 
 
 //footer

@@ -574,160 +574,121 @@
   font-size: 14px;
 }
 
-.second-section {
-  margin-top: 50px;
-}
-
-.second-section .image-div {
-  width: 100%;
-  height: 510px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.second-section .image-div .image {
-  width: 500px;
-  height: 500px;
-}
-
-.second-section .title-image {
-  font-size: 20px;
-  font-weight: bold;
-  height: 40px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  width: 350px;
-}
-
-.second-section .img-name {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  padding-top: 10px;
-}
-
-.second-section .img-name .lexsus, .second-section .img-name .toyota {
-  height: 40px;
-  width: 40px;
-}
-
-.second-section .img-name .names {
-  color: rgba(0, 0, 0, 0.5);
-  padding-top: 7px;
-}
-
-.second-section .titles-features {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
+.second-section .blogs {
   padding-top: 30px;
 }
 
-.second-section .titles-features .titles div {
-  font-size: 14px;
-  font-family: "Montserrat",Arial,Helvetica,sans-serif;
-  color: #5F6574;
-  line-height: 30px;
+.second-section .blogs .carname a {
+  text-decoration: none;
+  font-size: 27px;
+  color: #777e8f;
   font-weight: bold;
 }
 
-.second-section .detail-price {
-  font-size: 18px;
-  padding-top: 20px;
+.second-section .blogs .date-by {
+  margin-top: 5px;
+}
+
+.second-section .blogs .date-by .date {
+  display: inline-block;
+  color: #ADADAD;
+  font-size: 12px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  width: 75px;
+}
+
+.second-section .blogs .date-by .by {
+  display: inline-block;
+  color: #ADADAD;
+  font-size: 12px;
+  width: 175px;
+  padding-left: 5px;
+}
+
+.second-section .blogs .car-title {
+  font-size: 24px;
+  color: #6E6E6E;
   font-family: 'cairo', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-.second-section .features {
-  color: #5F6574;
+.second-section .blogs .car-content-first {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  font-family: "Montserrat",Arial,Helvetica,sans-serif;
-  line-height: 30px;
+  color: #6E6E6E;
+  margin-top: 20px;
 }
 
-.second-section .features .existing-feature {
-  color: #75AE12;
+.second-section .blogs .car-content-second {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6E6E6E;
+  margin-top: 20px;
 }
 
-.second-section .features .countt-feature .second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.second-section .blogs .carimage {
+  margin-top: 50px;
 }
 
-.second-section .features .countt-feature .second .increase {
-  width: 40px;
-  height: 30px;
-  color: #e4e4e4;
-  text-align: center;
-  font-size: 25px;
-  background-color: #c9c9c9;
-  cursor: pointer;
+.second-section .blogs .main-news {
+  margin-top: 30px;
 }
 
-.second-section .features .countt-feature .second .decrease {
-  width: 40px;
-  height: 30px;
-  color: #e4e4e4;
-  text-align: center;
-  padding-bottom: 10px;
-  font-size: 22px;
-  background-color: #c9c9c9;
-  cursor: pointer;
+.second-section .blogs .main-news ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
 }
 
-.second-section .features .countt-feature .second .number {
-  width: 70px;
-  height: 30px;
-  text-align: center;
-  background-color: whitesmoke;
-  padding-top: 2px;
-  color: #d4d4d4;
+.second-section .blogs .main-news ul li {
+  font-size: 14px;
+  color: #777e8f;
+  font-family: "Montserrat","Arial","Helvetica","sans-serif";
 }
 
-.second-section .features .countt-feature .second .number input {
+.second-section .blogs .read-continue-btn {
+  margin-top: 30px;
+  height: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.second-section .blogs .read-continue-btn button {
+  background-color: #3a7dcf;
   border: none;
-  background-color: #f6f7f8;
-  outline: none;
-}
-
-.second-section .btn-product .btns-basket-waiting {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 3px;
-  padding-top: 13px;
-}
-
-.second-section .btn-product .btns-basket-waiting #btnbasket {
-  background-color: #8A8D9C;
-  width: 165px;
-  height: 35px;
-}
-
-.second-section .btn-product .btns-basket-waiting #btnbasket:hover {
-  opacity: 0.8;
-}
-
-.second-section .btn-product .btns-basket-waiting #btnwait {
-  background-color: #01C0CB;
-  width: 160px;
-  height: 35px;
-}
-
-.second-section .btn-product .btns-basket-waiting #btnwait:hover {
-  opacity: 0.8;
-}
-
-.second-section .btn-product .btns-basket-waiting button {
-  border: none;
-}
-
-.second-section .btn-product .btns-basket-waiting button i {
   color: white;
+  width: 128px;
+  height: 35px;
+  border-radius: 3px;
+  font-size: 14px;
 }
 
-.second-section .btn-product .btns-basket-waiting button a {
-  color: white;
+.second-section .end-news {
+  margin-top: 40px;
+}
+
+.second-section .end-news .title {
+  font-size: 14px;
+  color: #777e8f;
+}
+
+.second-section .end-news .marka-name ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 2px;
+}
+
+.second-section .end-news .marka-name ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 40px;
+  padding-top: 9px;
+  list-style: none;
+}
+
+.second-section .end-news .marka-name ul li a {
+  color: #3a7dcf;
+  font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -825,4 +786,4 @@
   padding-left: 200px;
   padding-top: 20px;
 }
-/*# sourceMappingURL=productdetail.css.map */
+/*# sourceMappingURL=blog.css.map */
