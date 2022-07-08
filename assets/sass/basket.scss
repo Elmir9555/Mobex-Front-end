@@ -6,6 +6,84 @@
     text-decoration: none;
    
 }
+@media only screen and(max-width:768px){
+    html{
+        width: 100%;
+    }
+     .markas{
+         ul{
+             display: none;
+             li{
+                 display: none;
+             }
+           
+         }
+         
+       
+     }
+ 
+     .account{
+         span{
+             margin-right: 290px;
+         }
+         padding-right: 90px;
+     }
+     .language span{
+         display: none;
+     }
+ 
+   
+ 
+   
+ 
+     .navbar{
+         ul{
+             display: none;
+        
+             a{
+                 display: none; 
+             }
+           
+ 
+         }
+     }
+ 
+     .links-page{
+         .links {
+          
+         
+            h6{
+                cursor: pointer;             
+            }
+ 
+            .one,.two,.three,.four{
+                 display: none;       
+             }
+         }
+         .logo-mob{
+             display: none;
+         }
+         
+     }
+
+     .count-title,.totalprice-title,.second,.third,.decrease,.increase,.number,#order-comp{
+        display: none;
+     }
+   
+ 
+   
+ }
+ 
+ 
+ @media only screen and(min-width:1281px){
+     .links{
+         h6{
+             i{
+                 display: none;
+             }
+         }
+     }
+ }
 
 //Header
 .firstpart-header{

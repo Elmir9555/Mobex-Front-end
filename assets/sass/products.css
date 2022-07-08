@@ -7,6 +7,51 @@
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+  html {
+    width: 100%;
+  }
+  .markas ul {
+    display: none;
+  }
+  .markas ul li {
+    display: none;
+  }
+  .account {
+    padding-right: 90px;
+  }
+  .account span {
+    margin-right: 290px;
+  }
+  .language span {
+    display: none;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar ul a {
+    display: none;
+  }
+  .links-page .links h6 {
+    cursor: pointer;
+  }
+  .links-page .links .one, .links-page .links .two, .links-page .links .three, .links-page .links .four {
+    display: none;
+  }
+  .links-page .logo-mob {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  .links h6 i {
+    display: none;
+  }
+}
+
 .firstpart-header {
   background-color: #1b3b61;
   height: 35px;

@@ -63,3 +63,22 @@ minus.addEventListener("click",function(){
     }    
 })
 //main
+
+
+//media query
+$(document).ready(function(){
+    $(".oneh").click(function(){
+       $(".one").fadeToggle("slow");
+    })
+    $(".twoh").click(function(){
+        $(".two").fadeToggle("slow");
+     })
+     $(".threeh").click(function(){
+        $(".three").fadeToggle("slow");
+     })
+     $(".fourh").click(function(){
+        $(".four").fadeToggle("slow");
+     })
+
+})
+//media query
